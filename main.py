@@ -5,10 +5,6 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-
-
-
-
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 url = ("https://newsapi.org/v2/top-headlines?"
